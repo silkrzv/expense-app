@@ -1,0 +1,43 @@
+30 Sep 2024 18:39:58,735 INFO  repository.UserDBRepository 23 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite}
+30 Sep 2024 18:39:58,787 TRACE repository.JdbcUtils 52 getConnection - Enter
+30 Sep 2024 18:39:58,789 TRACE repository.JdbcUtils 26 getNewConnection - Enter
+30 Sep 2024 18:39:58,796 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite
+30 Sep 2024 18:39:58,802 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+30 Sep 2024 18:39:58,805 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+30 Sep 2024 18:39:59,985 TRACE repository.JdbcUtils 64 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76e43d01)
+30 Sep 2024 18:39:59,989 INFO  repository.ExpenseDBRepository 20 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite}
+30 Sep 2024 18:39:59,990 TRACE repository.JdbcUtils 52 getConnection - Enter
+30 Sep 2024 18:39:59,991 TRACE repository.JdbcUtils 26 getNewConnection - Enter
+30 Sep 2024 18:39:59,993 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite
+30 Sep 2024 18:39:59,993 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+30 Sep 2024 18:39:59,995 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+30 Sep 2024 18:39:59,998 TRACE repository.JdbcUtils 64 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69ca1bf6)
+30 Sep 2024 18:40:07,945 TRACE repository.UserDBRepository 137 findByUsername - Enter Finding user by username: razvan
+30 Sep 2024 18:40:07,969 TRACE repository.UserDBRepository 158 findByUsername - Exit with([])
+30 Sep 2024 18:40:14,891 TRACE repository.UserDBRepository 137 findByUsername - Enter Finding user by username: razvan
+30 Sep 2024 18:40:14,893 TRACE repository.UserDBRepository 158 findByUsername - Exit with([])
+30 Sep 2024 18:40:24,423 TRACE repository.UserDBRepository 137 findByUsername - Enter Finding user by username: Razvan
+30 Sep 2024 18:40:24,453 TRACE repository.UserDBRepository 158 findByUsername - Exit with([User{id=null, username='Razvan', password='j03jN6/+DrUVOCNsK0g16qoCh8J9mje5+ue7Jl0Pn1E='}])
+30 Sep 2024 18:40:24,680 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+30 Sep 2024 18:40:26,813 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+30 Sep 2024 18:40:31,092 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+02 Oct 2024 22:12:17,753 INFO  repository.UserDBRepository 23 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite}
+02 Oct 2024 22:12:17,775 TRACE repository.JdbcUtils 52 getConnection - Enter
+02 Oct 2024 22:12:17,775 TRACE repository.JdbcUtils 26 getNewConnection - Enter
+02 Oct 2024 22:12:17,776 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite
+02 Oct 2024 22:12:17,776 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+02 Oct 2024 22:12:17,777 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+02 Oct 2024 22:12:18,222 TRACE repository.JdbcUtils 64 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76e43d01)
+02 Oct 2024 22:12:18,239 INFO  repository.ExpenseDBRepository 20 <init> - Initializing ArtistDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite}
+02 Oct 2024 22:12:18,240 TRACE repository.JdbcUtils 52 getConnection - Enter
+02 Oct 2024 22:12:18,240 TRACE repository.JdbcUtils 26 getNewConnection - Enter
+02 Oct 2024 22:12:18,240 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/alexm/expense_java/expense_application/Expense.sqlite
+02 Oct 2024 22:12:18,242 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+02 Oct 2024 22:12:18,242 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+02 Oct 2024 22:12:18,244 TRACE repository.JdbcUtils 64 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69ca1bf6)
+02 Oct 2024 22:12:31,290 TRACE repository.UserDBRepository 137 findByUsername - Enter Finding user by username: Razvan
+02 Oct 2024 22:12:31,313 TRACE repository.UserDBRepository 158 findByUsername - Exit with([User{id=null, username='Razvan', password='j03jN6/+DrUVOCNsK0g16qoCh8J9mje5+ue7Jl0Pn1E='}])
+02 Oct 2024 22:12:31,441 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+02 Oct 2024 22:12:33,062 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+02 Oct 2024 22:12:36,526 INFO  repository.ExpenseDBRepository 74 getAll - Getting all expenses
+02 Oct 2024 22:12:48,692 INFO  repository.ExpenseDBRepository 151 getTotalAmount - Calculating total amount of expenses

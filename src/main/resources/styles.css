@@ -1,0 +1,92 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-padding: 20;
+    -fx-background-color: #f9f9f9;
+}
+
+.button {
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.rounded-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #F0F0F0;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #4CAF50;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #E0E0E0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.table-view .cell {
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #E0E0E0;
+}
+
+.table-view .cell:filled:selected, .table-view .cell:focused:selected {
+    -fx-background-color: #D4E157;
+    -fx-text-fill: #333333;
+}
+
+.date-picker, .combo-box {
+    -fx-background-color: #F0F0F0;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+
+.logout-button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+
+.delete-button {
+    -fx-background-color: #F44336;
+    -fx-text-fill: white;
+}
+
+.add-button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
