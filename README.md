@@ -1,7 +1,5 @@
 # Budget Management Application
 
-Description
-
 This is a simple budget management application built using JavaFX. It allows users to log in and manage their expenses by adding, deleting, filtering, and calculating total expenses.
 
 ## Features
